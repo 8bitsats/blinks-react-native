@@ -1773,11 +1773,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@dialectlabs/blinks-react-native@workspace:.":
+"@dialectlabs/blinks-react-native@^0.0.2, @dialectlabs/blinks-react-native@workspace:.":
   version: 0.0.0-use.local
   resolution: "@dialectlabs/blinks-react-native@workspace:."
   dependencies:
-    "@dialectlabs/blinks": 0.6.0-beta.0
+    "@dialectlabs/blinks": ^0.6.0
+    "@dialectlabs/blinks-react-native": ^0.0.2
     "@react-native/eslint-config": ^0.74.85
     "@shopify/restyle": ^2.4.4
     "@types/jest": ^29.5.5
@@ -1802,9 +1803,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@dialectlabs/blinks@npm:0.6.0-beta.0":
-  version: 0.6.0-beta.0
-  resolution: "@dialectlabs/blinks@npm:0.6.0-beta.0"
+"@dialectlabs/blinks@npm:^0.6.0":
+  version: 0.6.0
+  resolution: "@dialectlabs/blinks@npm:0.6.0"
   dependencies:
     clsx: ^2.1.1
   peerDependencies:
@@ -1813,7 +1814,7 @@ __metadata:
     "@solana/web3.js": ^1.95.1
     react: ">=18"
     react-dom: ">=18"
-  checksum: 7729296cbc7e8f557e632bf9c1a99f8ed70d575dec356c1cd3c9c3bdf3821cebeb99446a4fb25165e1370288d3ff72b8d05ea3300f22cfebc2bc60703ad07220
+  checksum: f4d6f048a4e8230c8d891e67faef481ac23843ec8a0c1c9c5e736fd959852eff0ccc8ef2412e429919859f844617840ddd1da4d8fe585ae5a29716d66129b726
   languageName: node
   linkType: hard
 
